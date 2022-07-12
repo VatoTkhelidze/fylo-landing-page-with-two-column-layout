@@ -1,5 +1,5 @@
 
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Raleway:wght@400;700&display=swap');
 
 
 *{
@@ -68,6 +68,9 @@ header{
 
 
 
+.top-curve{
+    margin-top: 90px;
+}
 
 
 .top-container{
@@ -151,4 +154,334 @@ input[type="text" i] {
     line-height: 16px;
     color: #FFFFFF;
 }
+
+
+
+.middle-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F8F8FE;
+}
+
+.three-people{
+    height: 241px;
+    width: 320px;
+}
+
+.second-img{
+    background: #F8F8FE;
+}
+
+.background-color{
+    background: #F8F8FE;
+}
+
+.middle-container-title{
+    margin-top: 87px;
+}
+
+
+.middle-container-title span{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #07043B;
+}
+
+.middle-container-info,
+.middle-container-info2{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #615F7E;
+    height: 63px;
+    width: 320px;
+}
+
+.middle-container-info{
+    margin-top: 24px;
+}
+
+.middle-container-info2{
+    margin-top: 16px;
+}
+
+.see-how a{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #3DA08F;
+    padding-right: 8px;
+}
+
+.see-how{
+    margin-top: 36px;
+    display: flex;
+    align-items: center;
+}
+
+.arrow-icon{
+    width: 12px;
+    height: 12px;
+    margin-top: 3px;
+}
+
+.green-line{
+    width: 130px;
+    height: 1px;
+    background: #3DA08F;
+}
+
+.tick{
+    display: flex;
+}
+
+.tick span{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35.3933px;
+    line-height: 53px;
+    color: #07043B;
+    height: 10px;
+    margin-top: 10px;  
+}
+
+.kyle-burton-card{
+    height: 100%;
+    width: 280px;
+    border-radius: 3.932584285736084px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px 4px rgba(56, 56, 56, 0.0458843);
+    padding-left: 25.96px;
+    padding-right: 12.74px;
+    margin-top: 40px;
+    padding-bottom: 18.62px;
+    margin-bottom: 81.9px;
+}
+
+.kyle-burton-info{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: 0.384615px;
+    color: #07043B;
+    margin-top: 38.54px;
+}
+
+.burton-img{
+    height: 24px;
+    width: 24px;
+    border-radius: 12px;
+}
+
+.name{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 12px;
+    letter-spacing: 0.45px;
+    color: #07043B;
+}
+
+.position{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6px;
+    line-height: 12px;
+    letter-spacing: 0.3px;
+    color: #07043B;
+}
+
+.name-position{
+    padding-left: 7.46px;
+}
+
+.avatar_name_info{
+    display: flex;
+    align-items: center;
+}
+
+.avatar_name_info{
+    margin-top: 12px;
+}
+
+.last-card{
+    margin-top: 100px;
+    background-color: #F8F8FE;
+}
+
+
+.bottom-container{
+    width: 100%;
+    background: #575988;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 48px;
+    padding-right: 47px;
+}
+
+.get-early-access{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 54px;
+}
+
+.get-early-info{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+
+.enter-mail-bottom{
+    margin-top: 24px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 3px rgba(7, 4, 59, 0.157043);
+    border-radius: 1.47059px;
+    height: 32px;
+    width: 240px;
+}
+
+.get-started-bottom{
+    margin-top: 8px;
+    background: #2F65F8;
+    box-shadow: 1px 1px 3px rgba(7, 4, 59, 0.157043);
+    border-radius: 1.47059px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    width: 240px;
+    margin-bottom: 71px;
+}
+
+.get-started-bottom a{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background: #07043B;
+    align-items: flex-start;
+    padding-top: 65px;
+    padding-left: 39px;
+}
+
+.logo-bottom{
+    height: 30px;
+    width: 105px;
+}
+
+.phone{
+    display: flex;
+    margin-top: 32px;
+    padding-right: 19px;
+    width: 100%;
+}
+
+.about-jobs-press-blog{
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+}
+
+.email{
+    display: flex;
+    margin-top: 16px;
+}
+
+
+.about-jobs-press-blog span{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+
+.email,
+.phone{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: 100%;
+    align-items: center;
+}
+
+.phone-logo,
+.email-icon{
+    padding-right: 19px;
+}
+
+.contact-terms-privacy{
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+}
+
+.contact-terms-privacy span{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+
+.social-media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 32px;
+    margin-bottom: 42px;
+}
+
+.twitter{
+    padding-left: 10.82px;
+    padding-right: 10.82px;
+}
+
+
+
+
+
+
+
+
 
