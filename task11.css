@@ -232,11 +232,24 @@ input[type="text" i] {
     align-items: center;
 }
 
-.arrow-icon{
-    width: 12px;
-    height: 12px;
-    margin-top: 3px;
+.see-how{
+    background: url("../task11(assets)/fylo-landing-page-with-two-column-layout-master/images/icon-arrow.svg") no-repeat;
+    background-size: 16px 16px;
+    background-position: right;
+    width: 166px;
 }
+
+.see-how:hover {
+    background: url("../task11(assets)/fylo-landing-page-with-two-column-layout-master/images/arrow-green-hover.svg") no-repeat;
+    width: 166px;
+    background-size: 16px 16px;
+    background-position: right;
+}
+
+
+
+
+
 
 .green-line{
     width: 130px;
