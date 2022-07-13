@@ -230,20 +230,10 @@ input[type="text" i] {
     margin-top: 36px;
     display: flex;
     align-items: center;
-}
-
-.see-how{
     background: url("../task11(assets)/fylo-landing-page-with-two-column-layout-master/images/icon-arrow.svg") no-repeat;
     background-size: 16px 16px;
     background-position: right;
-    width: 166px;
-}
-
-.see-how:hover {
-    background: url("../task11(assets)/fylo-landing-page-with-two-column-layout-master/images/arrow-green-hover.svg") no-repeat;
-    width: 166px;
-    background-size: 16px 16px;
-    background-position: right;
+    width: 130px;
 }
 
 
@@ -706,8 +696,18 @@ footer{
         cursor: pointer;
     }
 
-    .see-how:hover{
-        color: #71DFCC;
+    .see-how{
+        background: url("../task11(assets)/fylo-landing-page-with-two-column-layout-master/images/icon-arrow.svg") no-repeat;
+        background-size: 16px 16px;
+        background-position: right;
+        width: 166px;
+    }
+    
+    .see-how:hover {
+        background: url("../task11(assets)/fylo-landing-page-with-two-column-layout-master/images/arrow-green-hover.svg") no-repeat;
+        width: 166px;
+        background-size: 16px 16px;
+        background-position: right;
     }
 
     .see-how a{
