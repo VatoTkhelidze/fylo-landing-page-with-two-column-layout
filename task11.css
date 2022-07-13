@@ -144,7 +144,10 @@ input[type="text" i] {
     background: #2F65F8;
     box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
     margin-top: 16px;
+    cursor: pointer;
 }
+
+
 
 .get-started a{
     font-family: 'Raleway';
@@ -377,6 +380,7 @@ input[type="text" i] {
     height: 32px;
     width: 240px;
     margin-bottom: 71px;
+    cursor: pointer;
 }
 
 .get-started-bottom a{
@@ -386,6 +390,7 @@ input[type="text" i] {
     font-size: 10px;
     line-height: 12px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 footer{
@@ -429,6 +434,22 @@ footer{
     line-height: 22px;
     color: #FFFFFF;
     margin-top: 16px;
+    cursor: pointer;
+}
+
+.about-jobs-press-blog span:hover{
+    color: #6C9BFF;
+}
+
+.contact-terms-privacy{
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.contact-terms-privacy span:hover{
+    color: #6C9BFF;
 }
 
 .email,
@@ -448,11 +469,7 @@ footer{
     padding-right: 19px;
 }
 
-.contact-terms-privacy{
-    display: flex;
-    flex-direction: column;
-    margin-top: 16px;
-}
+
 
 .contact-terms-privacy span{
     font-family: 'Open Sans';
@@ -592,6 +609,10 @@ footer{
         background: #2F65F8;
         box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
         margin: 0;
+        cursor: pointer;
+    }
+    .get-started:hover{
+        background-color: #6C9BFF;
     }
 
     .enter-mail-get-started{
@@ -669,11 +690,30 @@ footer{
         margin-top: 15px;
         display: flex;
         align-items: center;
+        cursor: pointer;
+    }
+
+    .see-how:hover{
+        color: #71DFCC;
     }
 
     .see-how a{
         font-size: 16px;
         line-height: 22px;
+        cursor: pointer;
+    }
+
+    .see-how a:hover{
+        color: #71DFCC;
+    }
+
+    .arrow-icon{
+        display: block;
+    }
+
+
+    .arrow-icon:hover{
+        background: url("/arrow-hoverrrrr.jpg");
     }
 
     .green-line{
@@ -775,6 +815,11 @@ footer{
         height: 48px;
         width: 200px;
         margin-bottom: 80px;
+        cursor: pointer;
+    }
+    .get-started-bottom-desktop:hover{
+        background-color: #6C9BFF;
+        color: white;
     }
     
     .get-started-bottom-desktop a{
@@ -785,6 +830,7 @@ footer{
         line-height: 16px;
         text-align: center;
         color: #FFFFFF;
+        cursor: pointer;
     }
 
     .bottom_container_enter_mail_bottom_desktop{
